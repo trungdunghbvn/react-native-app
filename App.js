@@ -10,19 +10,10 @@ import React, {Fragment} from 'react';
 import Home from './src/components/Home';
 import { Provider } from 'react-redux';
 import store from './src/stores';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
 
 const App = () => {
   return (
     <Provider store={store}>
-      <Text>Test12</Text>
       <Home />
     </Provider>
   );
